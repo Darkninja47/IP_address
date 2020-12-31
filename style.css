@@ -70,13 +70,13 @@ html,body{
 .circle span{
     border-radius: 30%;
 }
-.outer:hover span:nth-child(1){
+.outer span:nth-child(1){
     filter: blur(14px);
 }
-.outer:hover span:nth-child(2){
+.outer span:nth-child(2){
     filter: blur(14px);
 }
-.outer:hover{
+.outer {
     background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
     animation: rotate 1.5s linear infinite;
 }
